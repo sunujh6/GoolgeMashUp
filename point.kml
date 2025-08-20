@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>Target Area</name>
+    <Style>
+      <LineStyle>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill> <!-- 영역 내부는 채우지 않음(0=투명) -->
+      </PolyStyle>
+    </Style>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            126.719,36.042,0
+            126.720,36.042,0
+            126.720,36.043,0
+            126.719,36.043,0
+            126.719,36.042,0
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+</kml>
